@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) no-repeat;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#title {
+    font-family: Satisfy;
+    font-size: 7rem;
+    text-shadow: 0px 0px 36px #00000087;
+}
+
+#text1,
+#text2 {
+    margin-bottom: 20px;
+}
+
+form {
+    width: 750px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+form input {
+    background: #F6F6F624 0% 0% no-repeat padding-box;
+    border: 1.5px solid #FFFFFF;
+    opacity: 1;
+    width: 260px;
+    height: 30px;
+}
+
+form input[type="button"] {
+    background-color: #FFFFFF;
+    color: black;
+    width: 130px;
+}
+
+#label1 {
+    position: relative;
+    top: -80px;
+    right: 324px;
+    font-size: 0.7em;
+}
+
+#label2 {
+    position: relative;
+    top: -97px;
+    right: 48px;
+    font-size: 0.7em;
+}
+
+#label3 {
+    display: none;
+}
+
+#label4 {
+    display: none;
+}
+
+@media (max-width:435px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: white;
+    }
+
+    body {
+        background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) no-repeat;
+    }
+
+    .box {
+        width: 90vw;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        font-size: 1.4rem;
+    }
+
+    #title {
+        font-family: Satisfy;
+        font-size: 4rem;
+        width: 90vw;
+        text-shadow: 0px 0px 36px #00000087;
+    }
+
+    #text1,
+    #text2 {
+        width: 90vw;
+        margin-top: 8%;
+    }
+
+    form {
+        width: 90vw;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    form input {
+        background: #F6F6F624 0% 0% no-repeat padding-box;
+        border: 1.5px solid #FFFFFF;
+        opacity: 1;
+        width: 85vw;
+        height: 40px;
+    }
+
+    form input[type="button"] {
+        background-color: #FFFFFF;
+        color: black;
+        width: 85vw;
+    }
+
+    #label1 {
+        display: none;
+    }
+
+    #label2 {
+        display: none;
+    }
+
+    #label3 {
+        display: block;
+        width: 94%;
+        text-align: left;
+        font-size: 0.8rem;
+    }
+
+    #label4 {
+        display: flex;
+        width: 94%;
+        text-align: left;
+        font-size: 0.8rem;
+    }
+}

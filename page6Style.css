@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Assistant;
+}
+
+#img1 {
+    height: 66vh;
+    width: 100vw;
+    position: absolute;
+}
+
+#img2 {
+    display: none;
+}
+
+.container-text {
+    top: 20vh;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #D3E10E;
+    margin-bottom: 30px;
+}
+
+p {
+    color: #F9F9F9;
+    font-size: 1.2rem;
+}
+
+.container-form {
+    width: 100vw;
+    height: 33vh;
+    position: absolute;
+    bottom: 0;
+}
+
+form {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    width: 800px;
+    height: 40%;
+    gap: 20px;
+}
+
+label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+input {
+    width: 270px;
+    height: 35px;
+    border: none;
+    border-bottom: #D3E10E 2px solid;
+    background-color: #F6F6F6;
+}
+
+input[type="button"] {
+    background-color: #D3E10E;
+    font-weight: bold;
+    width: 130px;
+    height: 35px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+@media (max-width:450px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Assistant;
+        height: 100vh;
+    }
+
+    #img1 {
+        display: none;
+    }
+
+    #img2 {
+        display: block;
+        width: 100%;
+        height: 35vh;
+        position: absolute;
+    }
+
+    .container-text {
+        top: 5vh;
+        z-index: 1;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+        color: #D3E10E;
+        margin-bottom: 15px;
+    }
+
+    p {
+        color: #F9F9F9;
+        font-size: 1rem;
+        width: 85%;
+    }
+
+    .container-form {
+        width: 100vw;
+        bottom: 10vh;
+    }
+
+    form {
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+    }
+
+    .one,
+    .two,
+    .three {
+        width: 100%;
+    }
+
+    label {
+        display: block;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+
+    input {
+        width: 100%;
+        border: none;
+        border-bottom: #D3E10E 2px solid;
+        background-color: #F6F6F6;
+    }
+
+    input[type="button"] {
+        background-color: #D3E10E;
+        font-weight: bold;
+        font-size: 1.2rem;
+        width: 100%;
+        margin: 0;
+    }
+}

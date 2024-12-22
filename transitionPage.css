@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+.searchbar {
+    background-color: white;
+    width: 100vw;
+    height: 5vw;
+    top: 1vw;
+    position: fixed;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+}
+
+.searchbar ul li {
+    flex-basis: 75px;
+}
+
+.searchbar ul li a {
+    text-decoration: none;
+    color: unset;
+}
+
+.searchbar .firstUl {
+    width: 30vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+}
+
+.searchbar .firstUl li:nth-child(2) {
+    flex-basis: 150px;
+    text-align: center;
+}
+
+.searchbar .firstUl li:first-child {
+    display: flex;
+    align-items: center;
+    direction: rtl;
+}
+
+.searchbar .secondUl {
+    width: 65vw;
+    height: 5vw;
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    align-items: center;
+    text-align: right;
+}
+
+.searchbar .secondUl li {
+    margin-right: 60px;
+    text-align: center;
+}
+
+.section1 {
+    width: 100vw;
+    height: 30vw;
+    background-color: teal;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.section1 p,
+h1 {
+    width: 60%;
+    text-align: center;
+    color: white;
+}
+
+.section1 h1 {
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
+.section1 button {
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    color: teal;
+    border-width: 0;
+    margin: 0 auto;
+}
+
+.buttons {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.tools {
+    width: 100vw;
+    height: 7vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 5px rgb(90, 90, 90);
+}
+
+.section2 {
+    width: 100vw;
+    height: 50vw;
+    background-color: #EBFEFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 img {
+    width: 65vw;
+    height: auto;
+}
+
+
+#reserved {
+    width: 100vw;
+    height: 4vh;
+    background-color: teal;
+    position: absolute;
+    bottom: -79vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    color: white;
+}

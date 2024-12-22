@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.searchbar {
+    background-color: white;
+    width: 100vw;
+    height: 5vw;
+    top: 1vw;
+    position: fixed;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+}
+
+.searchbar ul li {
+    flex-basis: 75px;
+}
+
+.searchbar ul li a {
+    text-decoration: none;
+    color: unset;
+}
+
+.searchbar .firstUl {
+    width: 30vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+}
+
+.searchbar .firstUl li:nth-child(2) {
+    flex-basis: 150px;
+    text-align: center;
+}
+
+.searchbar .firstUl li:first-child {
+    display: flex;
+    align-items: center;
+    direction: rtl;
+}
+
+.searchbar .secondUl {
+    width: 65vw;
+    height: 5vw;
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    align-items: center;
+    text-align: right;
+}
+
+.searchbar .secondUl li {
+    margin-right: 60px;
+    text-align: center;
+}
+
+.section1 {
+    width: 100vw;
+    height: 15vw;
+    background-color: teal;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.section1 p,
+h1 {
+    width: 60%;
+    text-align: center;
+    color: white;
+}
+
+.section1 h1 {
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
+.buttons a :first-child {
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    background-color: teal;
+    color: #fff;
+    border-width: 0;
+}
+
+.buttons :last-child {
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    color: teal;
+    border-width: 0;
+}
+
+
+#box {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+#box p {
+    width: 80%;
+    ;
+}
+
+#box .buttons {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+
+.tools {
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.section2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #EBFEFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 img {
+    width: 30%;
+    height: auto;
+    border-radius: 20px;
+}
+
+#reserved {
+    width: 100vw;
+    height: 4vh;
+    background-color: teal;
+    position: absolute;
+    bottom: -36vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    color: white;
+}
